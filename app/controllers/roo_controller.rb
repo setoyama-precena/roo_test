@@ -1,0 +1,2 @@
+class RooController < ApplicationController
+end
