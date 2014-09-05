@@ -1,4 +1,6 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<h1>XLSXアップロード検証（Rooライブラリを使用）</h1>
+
+<%= form_tag 'post_xlsx', :multipart => true do %>
+    <%= file_field_tag 'xlsx_file' %>
+    <%= submit_tag 'アップロード' %>
+<% end %>
