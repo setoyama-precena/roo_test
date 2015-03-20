@@ -4,3 +4,5 @@
     <%= file_field_tag 'xlsx_file' %>
     <%= submit_tag 'アップロード' %>
 <% end %>
+
+<%= link_to 'pdf出力', show_path(:format => "pdf") %>

@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   post 'post_xlsx' => 'roo#post_xlsx'
 
+  get 'show' => 'roo#show'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
