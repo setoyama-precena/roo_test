@@ -51,3 +51,10 @@ group :production do
 end
 
 gem 'roo'
+
+
+# pdf帳票用ライブラリ
+
+# For PDF generation
+gem 'pdfkit'       # wkhtmtopdfのラッパー
+gem 'wkhtmltopdf'  # HTMLをPDFに変換するツール
