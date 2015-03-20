@@ -1,9 +1,12 @@
+
 .red {
+    font-family: "ヒラギノ明朝 Pro", "IPAMincho";
     font-weight: bold;
     color: red;
 }
 
 .blue {
+    font-family: "Hiragino Kaku Gothic Pro","IPAPGothic";
     font-weight: bold;
     color: blue;
 }
