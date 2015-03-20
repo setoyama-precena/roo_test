@@ -57,4 +57,5 @@ gem 'roo'
 
 # For PDF generation
 gem 'pdfkit'       # wkhtmtopdfのラッパー
-gem 'wkhtmltopdf'  # HTMLをPDFに変換するツール
+#gem 'wkhtmltopdf'  # HTMLをPDFに変換するツール
+gem 'wkhtmltopdf-binary'
