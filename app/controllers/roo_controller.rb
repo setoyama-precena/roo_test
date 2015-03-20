@@ -22,7 +22,7 @@ class RooController < ApplicationController
     pdf = PDFKit.new(html, encoding: "UTF-8")
 
     # スタイルシートの設定
-    pdf.stylesheets << "#{Rails.root}/app/assets/stylesheets/roo.css.scss"
+    pdf.stylesheets << "#{Rails.root}/app/assets/stylesheets/pdf.css"
 
     # 画面にPDFを表示する
     # to_pdfメソッドでPDFファイルに変換する
